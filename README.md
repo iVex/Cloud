@@ -1,10 +1,6 @@
-/*
- *
  *  Cloud Website
- *
- */
 
- Just add this into your database :
+ * Just add this into your database :
 
  CREATE TABLE IF NOT EXISTS `membres` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
