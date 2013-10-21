@@ -1,0 +1,108 @@
+@import url(http://fonts.googleapis.com/css?family=Inconsolata);
+
+html {position:relative;min-height:100%;}
+body {margin:0 0 70px;}
+
+/* Header */
+header { position: relative; top: 0; width: 100%; background-color: #2980b9; height: 80px;box-shadow: 0px 0px 10px 5px #686262; display: inline-block;}
+header img {margin-left: 35px;max-height: 60px;margin-top: 10px;}
+header .rubriques{float:right;text-align:center;display: inline-block;margin-right: 15px;}
+header .rubriques a{display: inline-block;text-decoration: none;width:110px;}
+header .rubriques .rubrique{height:80px;color:#FFF;font-size: 17px;padding: 0 7px;transition: all .2s ease-in;margin-top: 0;line-height: 80px;font-family:'Inconsolata'}
+header .rubriques .rubrique:hover{background-color: #2c3e50;cursor: pointer;color: #3498db}
+
+#content {margin-left: 35px;margin-top: 20px; margin-right: 35px;}
+
+/* First Box */
+#content .first .box {float: left;}
+#content .first .box img{max-width: 300px;}
+#content .first .desc{background-color: #1abc9c; height: 180px;transition: all .2s ease-out;color: #d6d6d6}
+#content .first .desc:hover{background-color: #16a085; box-shadow: 0px 0px 20px 0px #000; color: #FFF;}
+#content .first .desc #p1{font-size: 20px;padding-top: 80px;margin-left: 70px}
+#content .first .desc #p2{color: #1abc9c;font-size: 18px;margin-bottom: 10px}
+#content .first .desc:hover #p2{color: #FFF;transition: color .8s ease-in;}
+
+/* Second Box */
+#content .second .box {float: left;}
+#content .second .desc{margin-top: 35px;border: 1px solid #2ecc71; border-radius: 5px;height: 180px;transition: all .2s ease-out;color: #000}
+#content .second .desc .texte{text-align: center;margin-bottom: 10px;}
+#content .second .desc .texte h1{font: 35pt 'Inconsolata', sans-serif;}
+#content .second .desc:hover{background-color: #27ae60; border-radius: 0px;box-shadow: 0px 0px 20px 0px #000;color: #FFF}
+
+
+/* Connection */
+#connection{text-align: center;position: relative;}
+#connection .box {float: left;}
+#connection .box img{max-width: 300px;margin-left: 30px}
+#connection .boxform{background-color: #2980b9;height: 210px;transition: background-color .2s ease-in;}
+#connection .boxform:hover{background-color: #34495e}
+#connection .boxform h2{color: #FFF;font-family: 'Inconsolata', sans-serif;padding-top: 15px}
+#connection .boxform .form input{border-radius: 3px;border: 1px solid #FFF; text-align: center;width: 500px;margin-bottom: 5px; font-family: 'Inconsolata', sans-serif; font-size: 13pt;height: 30px;}
+#connection .boxform .form input:hover{border: 1px solid #2c3e50}
+#connection .boxform .form input:focus{border: 1px solid #3498db}
+#connection .boxform .form button{background-color: #3498db; border: 0px; border-radius: 3px; width: 503px; height: 30px; margin-bottom: 10px;margin-top: 5px;color: #FFF}
+#connection .boxform .form button:hover{background-color: #2c3e50; transition: background-color .2s ease-in;}
+#connection .boxform .form .checkbox input{display: none;}
+#connection .boxform .form .checkbox .rounded{position: relative;vertical-align: middle;background-color: #FFF; border: 3px solid #bdc3c7; width: 9px; height: 9px; display: inline-block;border-radius: 8px;}
+#connection .boxform .form .checkbox input:checked + .rounded {border-color: #3498db;}
+#connection .boxform .form .checkbox input:checked + .rounded:after{content:'';display: block;width: 5px; height: 5px; background-color: #3498db;position: absolute;top: 2px;left:2px;border-radius: 2px;}
+
+/* Subscription */
+#subscription{text-align: center;position: relative;}
+#subscription .box{float: left;}
+#subscription .box img{max-width: 400px;margin-left: 30px;}
+#subscription .boxform{background-color: #2980b9;height: 270px;transition: background-color .2s ease-in;}
+#subscription .boxform:hover{background-color: #34495e}
+#subscription .boxform h2{color: #FFF;font-family: 'Inconsolata', sans-serif;padding-top: 15px}
+#subscription .boxform .form input{border-radius: 3px;border: 1px solid #FFF; text-align: center;width: 500px;margin-bottom: 5px; font-family: 'Inconsolata', sans-serif; font-size: 13pt;height: 30px;}
+#subscription .boxform .form input:hover{border: 1px solid #2c3e50}
+#subscription .boxform .form input:focus{border: 1px solid #3498db}
+#subscription .boxform .form button{background-color: #3498db; border: 0px; border-radius: 3px; width: 503px; height: 30px; margin-bottom: 10px;margin-top: 5px;color: #FFF}
+#subscription .boxform .form button:hover{background-color: #2c3e50; transition: background-color .2s ease-in;}
+
+
+/* Profile */
+#profile_top {width: 100%}
+#profile_top .box {float: left;}
+#profile_top .box img{width: 200px;max-width: 200px;max-height:200px;border-radius: 20px;transition:all .2s ease-out;padding: 15px}
+#profile_top .box img:hover{border-radius: 60px;transition:all .2s ease-out;}
+#profile_top .desc{text-align: center;background-color: #34495e;height: 220px;padding-top: 10px;}
+#profile_top .desc .p1 img{max-width: 25px;margin-left: 10px;transition: all .2s ease-out;}
+#profile_top .desc .p1 img:hover{-webkit-transform: rotate(360deg);}
+#profile_top .desc .p1{font-size: 35px;font-family: 'Inconsolata', sans-serif;color: #FFF; text-decoration: underline;}
+#profile_top .desc .bio{font-size: 20px; color: #FFF; font-family: 'Inconsolata', sans-serif;margin-top: -15px;}
+#profile_top .desc a{font-size: 20px; color: #FFF; font-family: 'Inconsolata', sans-serif;margin-top: -15px;}
+
+#profile_ {width: 100%;}
+#profile_ .box{float: left;}
+#profile_ .desc{margin-top: 35px;text-align: center;height: 100%;padding-top: 10px;background-color: #2c3e50;}
+#profile_ .desc p{font-size: 25px;color: #2980b9;}
+#profile_ .desc h6{font-size: 20px;color: #FFF;margin-left: 20%;}
+#profile_ .desc .menu ul{list-style: none;margin-left: 16%;}
+#profile_ .desc .menu ul li{padding-bottom: 5px; font-size: 18px;font-family: 'Inconsolata', sans-serif}
+#profile_ .desc .menu ul li a{text-decoration: none;color: #FFF}
+
+#profile_ .box .menu{width: 200px;max-width: 200px;max-height:200px;border-radius: 20px;transition:all .2s ease-out;padding: 15px;}
+#profile_ .box .menu ul{width: 200px;list-style: none;}
+#profile_ .box .menu ul li{padding-bottom: 5px; font-size: 18px;font-family: 'Inconsolata', sans-serif}
+#profile_ .box .menu ul li input{background:none;border:0;color:#FFF;font-size: 18px;font-family: 'Inconsolata', sans-serif}
+#profile_ .box .menu ul li input:hover{cursor:pointer;}
+
+
+/* Add Files */
+#addform{width: 100%}
+#addform .box{float: left;margin-left: 15px;}
+#addform .box p{font-size: 35px;font-family: 'Inconsolata', sans-serif;color: #000; text-decoration: underline;}
+#addform .desc{text-align: center;background-color: #34495e;height: 100%;padding-top: 10px;}
+#addform .desc .p1{text-align: center;background-color: #34495e;color: #FFF}
+#addform .desc .files{background:none;border:0;color:#FFF;}
+#addform .desc button{background-color: #3498db; border: 0px; border-radius: 3px; width: 200px; height: 30px; margin-bottom: 10px;margin-top: 5px;color: #FFF}
+#addform .desc button:hover{background-color: #2c3e50; transition: background-color .2s ease-in;}
+
+/* Footer */
+footer {position: absolute; bottom: 0; width: 100%; background-color: #2c3e50; height:40px;text-align: center;color: #FFF; margin-top: 20px}
+footer .copyright {margin-top: 10px; font: 10pt 'Inconsolata', sans-serif;font-size: 18px; text-decoration: none;}
+
+/* Page 404 */
+.erreur {text-align: center;}
+.erreur img{max-width: 500px;}
